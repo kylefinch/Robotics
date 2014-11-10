@@ -1,0 +1,52 @@
+﻿Kyle Vandelac
+8/31/14
+CptS 483 
+HW1
+
+Preferred language: C++
+
+How to find sensor_msgs packages?
+rospack find sensor_msgs
+
+What is the path of the sensor_msgs package?
+/opt/ros/hydro/share/sensor_msgs
+
+What ROS messages are defined in the sensor_msgs package?
+rosls sensor_msgs 
+cmake  msg  package.xml  srv 
+
+What nodes and topics are created when running roscore?
+/rosout is always running
+
+What ROS packages does the roscpp_tutorials package depend on? 
+rospack depends1 roscpp_tutorials 
+message_runtime 
+rosconsole 
+roscpp 
+roscpp_serialization 
+rostime 
+std_msgs 
+
+How do you run the talker and listener nodes in the roscpp_tutorials package?
+roscore
+rosrun roscpp_tutorials talker
+rosrun roscpp_tutorials listener
+
+What topic are the talker and listener nodes subscribing and publishing to? 
+/chatter
+
+What is the message type of the topic in the previous question
+std_msgs/String
+
+How do you rename a node? 
+rosrun turtlesim turtlesim_node __name:=my_turtle
+
+What is the difference between a topic and a service?
+A topic  is the act of one node publishing and another subscribing
+A service is the act of nodes sending requests and responses
+
+What does rqtconsole show you?
+This shows messages from different topics, some of which are warnings such as turtlesim running into a wall
+
+What does roslaunch do?
+Roslaunch runs a launch file which is similar to a script. In the tutorial it opens two turtlesims and makes turtlesim2 mimic turtlesim1
