@@ -3,6 +3,14 @@ Kyle Finch
 CptS 483 Robotics Lab6
 Due: 11/12/14
 
+LINKS TO VIDEOS:
+(File size restrictions wouldnt allow me to attach a single video even zipped)
+
+
+https://drive.google.com/open?id=0B1u9cYvrjWjWbHh3aU5iNF9BZzg&authuser=0
+https://drive.google.com/open?id=0B1u9cYvrjWjWaWRIdmJSbUdaUms&authuser=0
+
+
 Our objective:
 	The objective of this exercise was to be able to identify a "tag" object
 	(in this case, a colored orange-blue-orange strip of paper) with an
