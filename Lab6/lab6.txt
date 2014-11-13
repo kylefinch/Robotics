@@ -1,0 +1,32 @@
+Brooks Kindle
+Kyle Finch
+CptS 483 Robotics Lab6
+Due: 11/12/14
+
+Our objective:
+	The objective of this exercise was to be able to identify a "tag" object
+	(in this case, a colored orange-blue-orange strip of paper) with an
+	ARDrone, fly towards it, and land within 5 feet of the strip.
+
+Our approach:
+	On a high level, our approach was to have the drone lift off and rotate in
+	a circle until the tag was identified. Once the tag was identified, the
+	drone would fly forward until it either became in range of the tag (in
+	which case the drone would land), or the tag went out of the acceptable
+	box that the drone was trying to keep it in (think of centering the camera
+	on the tag). If that was the case, then the drone would re-center the tag
+	(within an acceptable range) before moving forward again.
+
+What we could have done differently:
+	By far the biggest problem was that drones drift no matter what. This means
+	that the longer the drone stayed in the air (no matter how much it moved),
+	the more likely it would run into something. For us, the biggest issue was
+	that the drone would drift heavily when we were searching for the tag. If
+	we could have done something differently, we would have used the drone's
+	bottom camera along with a tag on the ground to make sure that it did not
+	drift while searching for the goal tag.
+
+Extra credit:
+	The only thing that could be considered extra credit was the fact that our
+	drone started off in different rotations. Our drone started in roughly the
+	same location every time, but the direction it was facing was different.
